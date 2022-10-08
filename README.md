@@ -20,16 +20,16 @@ Composer is a package manager application for the PHP programming language that 
 Database or database is a collection of data that is managed in such a way based on certain conditions that are interconnected so that it is easy to manage. Through this management, users can find it easy to find information, store information and dispose of information.
 
 
-## Installation
+
 create a database in phpmy admin with the name pt.akucintaindonesiaraya and configure it in the .env file by changing it to
-
 DB_DATABASE= db_sekawan
-
 DB_USERNAME=root
-
 DB_PASSWORD=
 
 ```
+Composer install
+php artisan migrate
+php artisan db:seed --CreateUsersSeeder
 php artisan serve
 ```
 
