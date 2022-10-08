@@ -43,6 +43,7 @@ Database or database is a collection of data that is managed in such a way based
 
 ## Installation
 create a database in phpmy admin with the name pt.akucintaindonesiaraya and configure it in the .env file by changing it to
+
 DB_DATABASE= db_sekawan
 DB_USERNAME=root
 DB_PASSWORD=
