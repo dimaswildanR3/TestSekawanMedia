@@ -20,59 +20,38 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
+# Monitoring Kendaraan
+Aplikasi ini merupakan Monitoting Kendaraan perusahaan 
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Tech
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Raja Ongkir uses a number of open source projects to work properly:
 
-## Laravel Sponsors
+- [Laravel -V 8.0](https://laravel.com/docs/8.x) - Laravel is an open source PHP-based web application framework, using the Model-View-Controller concept.
+- [Visual Studio Code](https://code.visualstudio.com/download) - 
+Visual Studio Code is Microsoft's source-code editing software for Linux, macOS, and Windows.
+- [Xampp](https://www.apachefriends.org/download.html) - 
+XAMPP is free software, which supports many operating systems, is a compilation of several programs.
+- [PHP -V 7.4](https://www.php.net/downloads.php) - 
+PHP: Hypertext Preprocessor or simply PHP, is a general-purpose scripting language primarily used for web development.
+- [Composer](https://getcomposer.org/download/) - 
+Composer is a package manager application for the PHP programming language that provides a standard format for managing PHP dependencies and required libraries.
+- [Database -V 10.4.24](http://localhost/phpmyadmin/) - 
+Database or database is a collection of data that is managed in such a way based on certain conditions that are interconnected so that it is easy to manage. Through this management, users can find it easy to find information, store information and dispose of information.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
+## Installation
+create a database in phpmy admin with the name pt.akucintaindonesiaraya and configure it in the .env file by changing it to
+DB_DATABASE= db_sekawan
+DB_USERNAME=root
+DB_PASSWORD=
 
-## Contributing
+```
+php artisan serve
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Username : admin@sekawan
+Password : 123456
+Username : penyetuju@sekawan
+Password : 123456
